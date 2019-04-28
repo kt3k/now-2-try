@@ -1,6 +1,11 @@
 {
+  "name": "now-2-try-kt3k",
   "version": 2,
+  "public": true,
   "builds": [
     { "src": "*.js", "use": "@now/node" }
+  ],
+  "routes": [
+    { "src": "hello", "dest": "hello.js" }
   ]
 }
