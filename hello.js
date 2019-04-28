@@ -1,3 +1,3 @@
 module.exports = (req, res) => {
-  res.end('Hey')
+  res.end('Hello world from ▲now2!')
 }
